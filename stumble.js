@@ -41,6 +41,7 @@ const questions = [
                 "Stage 1": 1,
                 "Stage 2": 2,
                 "Stage 3": 3,
+                "Stage 4": 4,
             }[value];
         },
     },
