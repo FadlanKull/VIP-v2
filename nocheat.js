@@ -5,9 +5,9 @@ const request = require("@i-scrapper/plugins-request");
 
 const questions = [
     {
-        type: "input",
-        name: "authorization",
-        message: color("Authorization keys:"),
+        type: "Tempel",
+        name: "Kode Auth",
+        message: color("Kode Auth anda:"),
         prefix: `${color("[", "redBright")}+${color("]", "redBright")}`,
         suffix: "~",
         validate: function (input) {
@@ -63,7 +63,7 @@ const questions = [
     }
 ];
 
-const asciiText = figlet.textSync("VIP NEW", {
+const asciiText = figlet.textSync("Fadlan Kull", {
     font: 'Graffiti',
     horizontalLayout: 'default',
     verticalLayout: 'default',
